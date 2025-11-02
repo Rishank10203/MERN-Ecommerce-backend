@@ -1,3 +1,46 @@
 # Ecommerce Backend
 
-This is backend project for Ecommerce website.
+This is the backend project for an Ecommerce website, built with Node.js and Express.
+
+## Technologies Used
+
+- Node.js
+- Express
+- Mongoose
+- JSON Web Tokens (JWT)
+- bcryptjs
+- dotenv
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+- MongoDB
+
+### Installation & Setup
+
+1.  Clone the repository.
+2.  Install NPM packages:
+    ```bash
+    npm install
+    ```
+3.  Create a `.env` file in the root directory and add the following environment variables:
+    ```
+    PORT=5000
+    MONGO_URI=<YOUR_MONGO_DB_CONNECTION_STRING>
+    JWT_SECRET=<YOUR_JWT_SECRET>
+    ```
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm run dev`
+
+Runs the app in the development mode with nodemon, which automatically restarts the server on file changes.
+
+### `npm start`
+
+Runs the app in production mode.
